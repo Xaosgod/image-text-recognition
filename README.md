@@ -6,6 +6,7 @@ import easyocr
 reader = easyocr.Reader(['ru', 'en'])
 reader.readtext(img, detail=0, paragraph=True)
 ```
+- Также проведена работа по созданию собственного OSR об этом в файле READMEOSR.md
 ## Создание REST API с помощью FastApi
 - Устанавливаем необходимые компоненты
 ```
