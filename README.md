@@ -28,7 +28,7 @@ pip install uvicorn fastapi pydantic
 from fastapi import FastAPI, File, UploadFile
 app = FastAPI()
 ```
-- Проверим работу приложение для этого открывает терминал и прописываепм команду:
+- Проверим работу приложение. Для этого открываем терминал и прописываем команду:
 ```
 uvicorn <имя_вашего_файла>:app
 
